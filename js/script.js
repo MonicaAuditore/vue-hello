@@ -12,7 +12,9 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: "Hello Vue!",
+      message:
+        "To see a World in a grain of sand and a heaven in a wild flower, hold infinity in the palm of your hand and eternity in an hour.",
+      author: "William Blake",
     };
   },
 }).mount("#app");
