@@ -13,7 +13,7 @@ createApp({
   data() {
     return {
       message:
-        "To see a World in a grain of sand and a heaven in a wild flower, hold infinity in the palm of your hand and eternity in an hour.",
+        "To see a world in a grain of sand and a heaven in a wild flower, hold infinity in the palm of your hand and eternity in an hour.",
       author: "William Blake",
       imgData: "../img/pexels-sunsetoned-7283618.jpg",
     };
