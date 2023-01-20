@@ -14,15 +14,19 @@
     />
     <!-- fine google font -->
     <title>Vue Hello</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
   <body>
     <main class="main">
-      <div class="frase" id="app">
-        <h1>{{ message }}</h1>
-        <h3>{{ author }}</h3>
+      <div id="app">
+        <div class="img"><img v-bind:src="imgData" /></div>
+        <div class="frase">
+          <h1>{{ message }}</h1>
+          <h3>{{ author }}</h3>
+        </div>
       </div>
     </main>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
