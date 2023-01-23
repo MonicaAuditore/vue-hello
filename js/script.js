@@ -15,7 +15,7 @@ createApp({
       message:
         "To see a world in a grain of sand and a heaven in a wild flower, hold infinity in the palm of your hand and eternity in an hour.",
       author: "William Blake",
-      imgData: "../img/pexels-sunsetoned-7283618.jpg",
+      imgData: "img/pexels-sunsetoned-7283618.jpg",
     };
   },
 }).mount("#app");
